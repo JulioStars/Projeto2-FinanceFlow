@@ -1,0 +1,29 @@
+@mixin buttons__blue() {
+    height: 56px;
+    width: 210px;
+    background: $cor__button_blue;
+    color: #fff;
+    border: none;
+    font-weight: 450;
+    font-size: 16px;
+}
+
+@mixin buttons__grey() {
+    height: 56px;
+    width: 210px;
+    background: $cor__button__grey;
+    color: #fff;
+    border: none;
+    font-weight: 450;
+    font-size: 16px;
+}
+
+@mixin buttons__white() {
+    height: 56px;
+    width: 210px;
+    background: #fff;
+    color: #0328EE;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
